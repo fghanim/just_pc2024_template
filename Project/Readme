@@ -1,15 +1,1 @@
-Here is where you keep your Project files
-
-use 'Read_input(...)' to read input files, which will take the following parameters and initialize some variables/lists required for the operation of the graph. Num of OMP threads is initialized from the command line.
-
-usage:
-int argc : number of argument passed to command line
-char** argv: the arguments passed; will have the following format: number of thread - input_files, any other items that need to be specified for your project
-int *graph_edges: list of destination for the edges of the graph
-Node *graph_nodes: list of nodes, nodes follow the format described in the algo_desc file
-int &no_of_nodes: no of nodes
-int &edge_list_size: no of edges
-int &source: the source to start the graph if needed. you can override in however way desried.
-int &num_omp_threads: number of OMP threads to initialize the omp runtime with. - initialized from the command line.
-
-void Read_Input(int argc, char** argv, int* h_graph_edges, Node *graph_nodes, int &no_of_nodes, int &edge_list_size, int &source, int &num_omp_threads)
+Here is where you keep your Project source files
